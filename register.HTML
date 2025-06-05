@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head><title>my first form</title>
+<style>
+ .n {
+            display: flex;
+            align-items: center;
+            position: sticky;
+            justify-content: space-between;
+            font-size: larger;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            top: 0;
+        }
+
+        .logo {
+            color: rgba(250, 4, 4, 0.76);
+            font-size: 30px;
+            font-weight: bolder;
+            font-style:italic;
+        }
+
+        .nav {
+            display: flex;
+            column-gap: 60px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            font-family: initial;
+            font-size: 19px;
+            font-style: normal;
+            color: rgb(0, 0, 0);
+            position: sticky;
+
+        }
+</style></head>
+<body>
+     <nav class="n">
+        <div class="logo">
+            <p>YOUTUBE</p>
+        </div>
+        <div class="nav">
+            <a href="work.html">HOME</a>
+            <a href="to-do.html">todo</a>
+            <a href="register.HTML">register</a>
+            <a href="lists.html">lists</a>
+        </div>
+    </nav>
+<marquee direction="down" scrollamount="20"><h1 style="color:rgb(170, 102, 12)">REGISTRATION FORM</H1></marquee>
+<FIELDSET style="BACKGROUND-color:rgba(214, 89, 6, 0.836); width:600"><legend STYLE="background-color:orange">PERSONAL ID</LEGEND> 
+<form><table border="2">
+<tr>
+<td><label>NAMES:</LABEL></td> 
+<td><input type="text" placeholder="Enter your names"></td>
+</tr>
+<tr>
+<td><label>PASSWORD:</LABEL></td>
+<td><input type="PASSWORD"></td>
+</tr>
+<tr> 
+<td><label>E-MAIL:</LABEL></td>
+<td><input type="email" placeholder="example@gmail.com"></td>
+</tr>
+<tr>
+<td><label>Date Of Birth:</LABEL></td>
+<td><input type="date" placeholder=""></td>
+</tr>
+<tr>
+<td><label>LEVEL:</LABEL></td>
+<td><input type="Number" min="3" max="5"></td>
+</tr>
+<tr>
+<td><label>MODULE:</LABEL></td>
+<td><SELECT>
+<OPTION>JAVASCRIPT</option>
+<OPTION>WEBSITE DEVELOPMENT</option>
+<OPTION>VERSION CONTROL</option>
+<OPTION>BASIC GRAPHIC DESIGN</option>
+</td>
+</select>
+</tr>
+<tr>
+<td><LABEL>SEX:</LABEL></td>
+<td><input type="RADIO" name="Gender">
+<LABEL>Male</LABEL>
+<input type="RADIO" name="Gender">
+<LABEL>Female:</LABEL></td>
+</tr>
+<tr>
+<td><LABEL>TELEPHONE:</LABEL></td>
+<td><Input type="tel"></td>
+</tr>
+<tr>
+<td><label>FAVOURITE FRUIT:</LABEL></td>
+<td><LABEL> ORANGE</LABEL>
+<INPUT TYPE="CHECKBOX"><br>
+<LABEL> APPLE</LABEL>
+<INPUT TYPE="CHECKBOX"><br>
+<LABEL> STRAWBERRY</LABEL>
+<INPUT TYPE="CHECKBOX"><br>
+<LABEL> MANGO</LABEL>
+<INPUT TYPE="CHECKBOX"></td>
+</tr>
+<tr>
+<td><INPUT TYPE="CHECKBOX">
+<LABEL>COMMENT</LABEL></td>
+<td><TEXTAREA rows="10" cols="20"></TEXTAREA></td>
+</tr>
+<tr>
+<td><label>which extent do you like WEBDEV</LABEL></td>
+<td><INPUT TYPE="range"></td>
+</tr>
+<tr>
+<td><LABEL>What is your color?</LABEL></td>
+<td><INPUT TYPE="color"></td>
+</tr>
+<tr>
+<td><LABEL>Upload your file:</LABEL></td>
+<td><INPUT TYPE="file"></td>
+</tr>
+<tr>
+<td><INPUT TYPE="reset"></td>
+<td><input type="submit"></td>
+</table>
+</form>
+<button onclick="bb.html">BACK</button>
+</body>
+</html>
